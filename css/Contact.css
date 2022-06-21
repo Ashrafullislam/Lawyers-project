@@ -1,0 +1,587 @@
+/* Navbar Start here*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  body{
+      font-family: montserrat;
+  
+  }
+  /* nav height control  */
+  .container.fixed-top.mb-3.bg-light {  
+    padding: 0px;
+    height: 73px;
+}
+/* nav height control  */
+  nav{
+      background: ;
+      height: 80px;
+      width: 100%;
+  }
+  label.Logo{
+      
+      color:rgb(8, 8, 8);
+      font-size: 34px;
+      line-height: 80px;
+      padding: 0 10px;
+      
+  }
+  img.logo-size {
+    width: 70px;
+    height: 70px;
+    margin-top: -28px;
+}
+  nav ul{
+      float: right;
+      margin-right: 20px;
+  
+  
+  }
+  nav ul li{
+      display: inline-block;
+       line-height: 80px;
+       margin:0 10px;
+  }
+  nav ul li a{
+      color:rgb(11, 11, 11);
+      font-size: 17px;
+      padding:8px 13px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      text-decoration: none;
+  
+  }
+  a.active,a:hover{
+      background: rgb(66, 164, 240);
+        color:#fff;
+        text-decoration: none;
+  }
+  a.active:hover{
+      color:blue;
+  }
+.checkbtn{
+    font-size: 30px;
+    color:rgb(29, 1, 1);
+    float:right;
+    line-height: 80px;
+    margin-right:30px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+  /* Navbar end here */
+
+  /* home   section start here */
+
+  .about-page-img{
+        width: 100%;
+        height: auto;
+    
+  }
+ 
+  #about-home{
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  img.about-page-img {
+    margin-top: 5rem;
+}
+.centered{
+    padding: 18px 21px 20px 14px;
+}
+.centered {
+    width: 80vw;
+    height: 40vh;
+}
+h1.contact-us-text {
+    font-size: 4rem;
+    color:white;
+    padding: 2rem;
+}
+h6.contact-us-text{
+    color:orange;
+}
+.centered {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #030b26;
+}
+
+
+ /*Home section end here */
+
+ /* contact us section start here */
+ #contact-us{
+    background-color: #e9ebf0;
+    margin:2rem 0;
+    
+ }
+ .container.control {
+    padding: 4rem 0;
+}
+.card-img-top{
+    height: 70vh;
+}
+h2.contact-us-header {
+    font-weight: 600;
+}
+
+p.contact-us-body-text {
+    font-size: 20px;
+}
+
+h4.contact-us-number {
+    font-weight: 700;
+    padding-top: 1rem;
+}
+ /* contact us section ends here */
+ 
+
+ /* Send direct massage section start from here */
+#send-message{
+    background-color: #030b26;
+    margin:2rem 0;
+}
+h3.message-title-h3 {
+    color: white;
+    font-size: 34px;
+    font-weight: inherit;
+    padding: 3rem 0;
+}
+
+p.message-text {
+    color: white;
+    font-size: 21px;
+    font-family: system-ui;
+    padding: 3rem 0;
+    line-height: 44px;
+    text-align: center;
+}
+.message-discription {
+    text-align: center;
+}
+h6.location-lawyers {
+    color: white;
+    padding: 1rem 0;
+}
+.social-share-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-style{
+    width: 42px;
+    height: 42px;
+    margin-right:  10px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+.icon-style:hover{
+    background-color: rgb(233, 136, 25);
+    
+}
+
+ .contact{
+    color:white;
+    
+}
+.contact p{
+    text-align: left;
+}
+.contact input,textarea{
+    width: 90%;
+    padding: 15px;
+    font-size: 1rem;
+    text-align: left;
+    border:;
+    border-radius:5px;
+    margin-bottom: 35px;
+    background-color: rgb(236, 233, 230);
+}
+.button-style{
+    background-color:rgb(224, 177, 20);
+    margin: 1rem 1rem;
+    padding:7px 15px;
+    cursor: pointer;
+    border-radius:5px;
+    border:2px solid white;
+}
+.button-style:hover{
+    background-color: skyblue;
+}
+.button-group {
+    text-align: center;
+}
+h3.contact-title {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 40px;
+}
+  /* Send direct massage section ends here */
+
+
+ /* Our location page start here */
+#Location-map{
+
+    width: 100%;
+    height: auto;
+    background-color:rgb(236, 230, 230);
+    margin: 2rem 0;
+}
+.location-img{
+    width: 100%;
+    height: auto;
+}
+ /* Our locationpage start here */
+
+
+ /* Footer section start here */
+.footer-bg{
+    background-color: rgb(1, 1, 48);
+    color:white;
+    height: auto;
+    
+}
+#footer-section{
+    text-align: center;
+}
+.footer-link li a{
+    font-size: 1.5rem ;
+
+}
+.footer-2-h6{
+    color:white;
+}
+
+ /* Footer section end here */
+
+
+                             /* Responsive section start here  */
+
+
+@media (max-width:1200px){
+    /* Our experience section start here */
+ 
+
+    /* Our experience section start here 
+}
+     
+
+     /* device screen  992px navbar responsive start */
+     @media(max-width:992px){
+        /* navbar start here */
+        label.logo{
+            font-size:30px;
+            padding-left: 30px;
+        }
+        nav ul li a{
+            font-size:16px;
+
+    
+        }
+        .checkbtn{
+            display:block ;
+        }
+        ul{
+      
+            position: fixed;
+            width: 100%;
+            height: 60vh;
+            background: rgb(2, 2, 71);
+            top: 80px;
+            margin: 0 20px;
+            text-align: center;
+            left: -100%;
+            transition: 0.4s;
+        
+        }
+        nav ul li{
+            display: block;
+            margin:  5px 0;
+            line-height: 60px;
+        }
+        nav ul li a{
+            color:white;
+        }
+     
+            #check:checked ~ul {
+                left: 0;
+                
+            }
+        
+        ul {
+            margin-left: 0rem;
+        }
+        i.fas.fa-bars {
+            background: white;
+            color: #640505;
+        }
+           /* navbar end here */
+
+      
+     /* homesection start here */
+     .centered {
+        position: absolute;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #030b26;
+        width: 60vw;
+        height: 35vh;
+    }
+         /* homesection end here */
+ 
+    }
+    /* device screen  952px navbar responsive end */
+    
+
+
+/* device screen  858 px navbar responsive start */
+   @media (max-width:858px ){
+      /* navbar start here */
+       .checkbtn{
+           display:block ;
+       }
+       ul{
+       
+           position: fixed;
+           width: 100%;
+           height: 60vh;
+           background: rgb(2, 2, 71);
+           top: 80px;
+           left: 0;
+           text-align: center;
+           left: -100%;
+           transition: 0.4s;
+       }
+       nav ul li{
+           display: block;
+           margin:  5px 0;
+           line-height: 60px;
+       }
+       nav ul li a {
+           font-size: 20px;
+           color:white;
+       }
+       a:hover,a.active{
+           background: none;
+           color:rgb(41, 125, 236)
+       }
+       #check:checked ~ul{
+           left: 0;
+       }
+       ul {
+        margin-left: 0px;
+    }
+    ul {
+        z-index: 1;
+    }
+    i.fas.fa-bars {
+        background: white;
+        color: #640505;
+    }
+      /* navbar end here */
+
+
+     /* homesection start here */
+     .centered {
+        position: absolute;
+        top: 44%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #030b26;
+        width: 55vw;
+        height: 30vh;
+    }
+    h1.contact-us-text {
+        font-size: 3rem;
+        color: white;
+        padding: 0rem;
+    }
+         /* homesection end here */
+
+}   
+   /* device screen  858 px  responsive end */
+
+
+
+/* device screen  768px navbar responsive start */
+   @media (max-width:768px ){
+        /* navbar start here */
+        .checkbtn{
+            display:block ;
+        }
+             /* navbar end here */
+
+            /*  Home page start here */
+            .centered {
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: #030b26;
+                width: 55vw;
+                height: 30vh;
+            }
+          h1.contact-us-text {
+            font-size: 3rem;
+            color: #fff;
+        }
+           /*  Home page end here */
+
+    ul {
+        margin-left: 0px;
+        margin-left: 0;
+        height: 55vh;
+        top: 80px;
+        
+    }
+            /* navbar start here*/
+            ul {
+                z-index: 1;
+            }
+        nav ul li a{
+            color:white;
+        }
+        i.fas.fa-bars {
+            background: white;
+            color: #640505;
+            }
+            /* navbar ene here*/
+    
+   }
+     /* device screen  768px navbar responsive end */
+
+
+
+       /* device screen  650px navbar responsive start */
+     @media (max-width:650px){
+             /* homepage  page start */
+            
+            h1.contact-us-text {
+                font-size: 3rem;
+            }
+            
+            .centered {
+                top: 36%;
+                height: 25vh;
+            }
+             /* homepage end  */
+  }
+   /* device screen  650px navbar responsive end */
+
+
+     /* device screen  576px navbar responsive start */
+   @media (max-width:576px){
+        /* navbar start here*/
+        ul {
+            margin-left: 0;
+            height: 50vh;
+            width: 100%;
+        }
+        nav ul li{
+            display: block;
+            margin:  5px 0;
+            line-height: 40px;
+        }
+       
+            ul {
+                z-index: 1;
+            }
+            nav ul li a{
+                color:white;
+            }
+            i.fas.fa-bars {
+                background: white;
+                color: #640505;
+            }
+            /* navbar end here*/
+ 
+      
+
+                /*  Home page start here */
+                
+               
+                }h1.contact-us-text {
+                    padding: 2px 5px;
+                }
+        
+                h1.contact-us-text {
+                    font-size: 30px;
+                }
+                
+               
+                .centered {
+                    top: 28%;
+                }
+            /*  Home page end here */
+        
+    }
+
+   /* device screen  576px  responsive end */
+
+   @media (max-width:540px){
+    /* home section start here */
+    img.about-page-img {
+        width: 100%;
+        height: 35vh;
+    }
+        /* home section start here */
+   }
+
+
+   /* 450px media screen start here */
+   @media(max-width:450px){
+         /* navbar start here */
+         ul {
+            margin-left: 0;
+            height: 40vh;
+            width: 100%;
+        }
+        nav ul li{
+            display: block;
+            margin:  5px 0;
+            line-height: 40px;
+        }
+        nav ul li a{
+            font-size:15px;
+        }
+        /* navbar end here */
+
+        /* home and consultant section */
+        h1.contact-us-text {
+            font-size: 24px;
+        }
+
+        .centered {
+            top: 29%;
+            height: 18vh;
+        }
+        img.about-page-img {
+            width: 100%;
+            height: 35vh;
+        }
+        
+        img.card-img-top {
+            width: 100%;
+            height: auto;
+        }
+        /* home and consultant section */
+
+         
+   }
+ 
+ /* 450px media screen ends here */

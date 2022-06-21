@@ -1,0 +1,901 @@
+/* Navbar Start here*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  body{
+      font-family: montserrat;
+  
+  }
+  /* nav height control  */
+  .container.fixed-top.mb-3.bg-light {  
+    padding: 0px;
+    height: 73px;
+}
+/* nav height control  */
+  nav{
+     
+      height: 80px;
+      width: 100%;
+  }
+  label.Logo{
+      
+      color:rgb(8, 8, 8);
+      font-size: 34px;
+      line-height: 80px;
+      padding: 0 10px;
+      
+  }
+  img.logo-size {
+    width: 70px;
+    height: 70px;
+    margin-top: -28px;
+}
+  nav ul{
+      float: right;
+      margin-right: 20px;
+  
+  
+  }
+  nav ul li{
+      display: inline-block;
+       line-height: 80px;
+       margin:0 10px;
+  }
+  nav ul li a{
+      color:rgb(11, 11, 11);
+      font-size: 17px;
+      padding:8px 13px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      text-decoration: none;
+  
+  }
+  a.active,a:hover{
+      background: rgb(66, 164, 240);
+        color:#fff;
+        text-decoration: none;
+  }
+  a.active:hover{
+      color:blue;
+  }
+.checkbtn{
+    font-size: 30px;
+    color:rgb(29, 1, 1);
+    float:right;
+    line-height: 80px;
+    margin-right:30px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+  /* Navbar end here */
+
+  /* home   section start here */
+
+  .about-page-img{
+        width: 100%;
+        height: auto;
+    
+  }
+ 
+  #about-home{
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  img.about-page-img {
+    margin-top: 5rem;
+}
+.centered{
+    padding: 18px 21px 20px 14px;
+}
+.centered {
+    width: 80vw;
+    height: 40vh;
+}
+h1.consultaion-text {
+    font-size: 4rem;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #030b26;
+}
+
+img.about-page-img {
+    display: block;
+}
+ /*Home section end here */
+
+
+
+  /* Why we are different section start here */
+
+  #why-different{
+    width: 100%;
+    height:auto;
+    background-color: rgb(245, 240, 236);
+    padding:4rem 0;
+    text-align: center;
+   
+  }
+ .container-fluid{
+    background-color: ;
+}
+
+.practice-h6{
+    text-align: center;
+    color:orange;
+    padding-top: ;
+}
+.practice-h2{
+    color:black;
+    text-align: center;
+    font-weight: bold;
+}
+i{
+    background-color: darkblue;
+    color:white;
+    cursor: pointer;
+}
+
+i:hover{
+   color:#434254;
+   
+}
+
+#practice-div {
+   cursor: pointer;
+   transition: .1s;
+
+}
+#practice-div:hover{
+   background-color: rgb(197, 190, 190);
+   
+}
+h1 {
+    font-weight: bold;
+}
+
+h6 {
+    color: orange;
+    padding: 0em;
+}
+
+  /* Why we are different section end here */
+
+
+
+/* Intigrated experience section start */
+ .about-section {
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+img.card-img.about-img {
+    height: 80vh;
+
+}
+ #intigrated-experience{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 252, 249);
+ }
+ .about-img{
+     height:54vh;
+ }
+ .about-title{
+     text-align: center;
+     padding:1rem;
+ }
+ .about-title h6{
+     color: orange;
+ }
+ .about-title h2{
+     color:black;
+     font-weight: 700;
+ }
+ a.btn.btn-secondary {
+    margin-bottom: 21px;
+    background-color: rgb(33, 147, 223);
+}
+ a.btn.btn-secondary:hover{
+    color:blue;
+}
+a.btn.btn-info {
+    background: darkblue;
+}
+
+a.btn.btn-info:hover {
+    color: blue;
+}
+a.btn.btn-secondary {
+    margin: 0 2rem;
+}
+/* Intigrated experience section end */
+
+
+  /*  case  experience section start */
+
+  div#case-experience {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+}
+ 
+ .background{
+     height: auto;
+     margin-bottom: 2rem;
+     padding-bottom: 2rem;
+     margin-top: 2rem;
+ }
+
+/* #experience-card-text:hover{
+    box-shadow: 2px 3px 8px rgb(26, 24, 24);
+} */
+#experience-card-img{
+    height: 100vh;
+}
+#experience-card-img:hover{
+    box-shadow: 2px 3px 8px rgb(26, 24, 24);
+}
+ .about-img {
+    height: auto;
+}
+ .card-img-top{
+    height: 50vh;
+  }
+  .card.h-100{
+    cursor: pointer;
+    transition: 0.3s;
+    
+  }
+  h2.card-title {
+    font-weight: 600;
+}
+p.card-text {
+    font-size: 20px;
+}
+    
+h6.Law-news-subtitle {
+    text-align: center;
+    color: orange;
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+h1.Law-news-title-customize {
+    text-align: center;
+    color: black;
+    font-weight: 700;
+}
+
+.experience-card-progres{
+    height: 83vh;
+}
+
+/* Our exprience section progress animation start */
+
+.text-experience {
+    padding: 10px 15px 40px 5px;
+}
+
+.Our-experience {
+    background:
+    
+    padding: 30px 20px 41px 20px;
+    height:
+    auto;
+}
+.Our-experience #progres-li{
+    margin:30px 0;
+    color:black;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    
+}
+.Our-experience #progres-li::before{
+    content: '';
+    position: absolute;
+    top:calc(100% + 5px);
+    left: 0;
+
+
+
+    background-color: rgb(170,167, 173);
+    width: 100%;
+    height: 22px;
+    border-radius: 1000px;
+}
+.Our-experience #progres-li::after{
+    content: '';
+    position: absolute;
+    top:calc(100% + 5px);
+    left: 0;
+
+  
+    width: 0;
+    height: 22px;
+    border-radius: 1000px;
+    background-color: rgb(170,167, 173);
+
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-iteration-count: 3; 
+    /* animation-direction: initial; */
+   animation-fill-mode: forwards;    /* for stay progess animation */
+    
+}
+.Our-experience #progres-li.divorces::after{
+    animation-name: divorces;
+}
+@keyframes divorces{
+    to{
+        width: 50%;
+        background-color: rgb(240, 151, 17);
+        border-radius:1000px;
+    
+        
+    }
+}
+.Our-experience #progres-li.business::after{
+    animation-name: business ;
+}
+@keyframes business{
+    to{
+        width: 90%;
+        background-color: orangered;
+    }
+}
+.Our-experience #progres-li.car-accident::after{
+    animation-name: car-accident;
+
+}
+@keyframes car-accident{
+    to{
+        width: 70%;
+        background-color: #c75a2f
+    }
+}
+/* Our exprience section progress animation start */
+/* case experince section end here*/
+ 
+
+
+/* About section start here */
+div#about-section {
+    background-color: rgb(245, 240, 236);
+    padding:3rem 0;
+    text-align:center;
+}
+img.socialshare-link-img {
+    width: 36px;
+
+}
+
+a.socialshare-link {
+    padding: 0 4px;
+}
+
+p.card-developer-name {
+    font-size: 20px;
+    font-weight: 800;
+    color: darkblue;
+
+}
+p.card-developer-title {
+    font-size: 18px;
+    font-family: cursive;
+    color: darkblue;
+}
+
+p.card-developer-name {
+    margin-bottom: 2px;
+}
+.card-body-custom {
+    padding: 0;
+}
+
+.card-style {
+    border-bottom-right-radius: 6rem ;
+}
+.team-mem-1 {
+    background: rgb(1, 1, 61);
+}
+.team-mem-2 {
+    background: rgb(1, 1, 61);
+}
+.team-mem-3 {
+    background: rgb(1, 1, 61);
+}
+h6.about-us-text-h6 {text-transform: uppercase;}
+
+h2.about-us-title-h2 {
+    font-size: 44px;
+    font-weight: revert;
+    padding-bottom: 22px;
+}
+img.card-img-top {
+    border-radius: 5rem 0;
+}
+
+/* About section start here */
+
+
+
+/* consultation page start here */
+
+
+  #our-expert{
+    position: relative;
+    text-align: center;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #030b26;
+  }
+  .consultant-img{
+    width: 100%;
+  }
+  .consultaion-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: #f8f9fa;
+  }
+  .consultaion-text-h6{
+    color:orange;
+  
+  }
+  .btn{
+    background-color: rgb(236, 179, 72);
+    color:#fff;
+  
+  }
+  img.consultant-img {
+    margin-bottom: 3px;
+}
+p.consultaion-text {
+    font-size: 39px;
+}
+.btn:hover {
+    color: #e2e6eb;
+    text-decoration: none;
+    background: blue;
+}
+/* consultation page end here */
+
+
+
+ /* Footer section start here */
+.footer-bg{
+    background-color: rgb(1, 1, 48);
+    color:white;
+    height: auto;
+    
+}
+#footer-section{
+    text-align: center;
+}
+.footer-link li a{
+    font-size: 1.5rem ;
+
+}
+.footer-2-h6{
+    color:white;
+}
+
+ /* Footer section end here */
+
+
+                             /* Responsive section start here  */
+
+
+     /* device screen  992px navbar responsive start */
+     @media(max-width:992px){
+        /* navbar start here */
+        label.logo{
+            font-size:30px;
+            padding-left: 30px;
+        }
+        nav ul li a{
+            font-size:16px;
+
+    
+        }
+        .checkbtn{
+            display:block ;
+        }
+        ul{
+      
+            position: fixed;
+            width: 100%;
+            height: 60vh;
+            background: rgb(2, 2, 71);
+            top: 80px;
+            margin: 0 20px;
+            text-align: center;
+            left: -100%;
+            transition: 0.4s;
+        
+        }
+        nav ul li{
+            display: block;
+            margin:  5px 0;
+            line-height: 60px;
+        }
+        nav ul li a{
+            color:white;
+        }
+     
+            #check:checked ~ul {
+                left: 0;
+                
+            }
+        
+        ul {
+            margin-left: 0rem;
+        }
+        i.fas.fa-bars {
+            background: white;
+            color: #640505;
+        }
+           /* navbar end here */
+
+        /* Home section start here */
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #030b26;
+            width: 55vw;
+            height: auto;
+        }
+           /* Home section end here */
+
+           /* consultant section start here*/
+           p.consultaion-text {
+            font-size: 31px;
+            padding: 0;
+        }
+         /* consultant section end here*/
+
+         /* about section start here */
+         .card-footer-customize{
+            padding-bottom: 37px;
+         }
+         /* about section end here */
+
+         /* Our exprience section progress animation start*/
+ 
+    }
+    /* device screen  952px navbar responsive end */
+    
+
+
+/* device screen  858 px navbar responsive start */
+   @media (max-width:858px ){
+      /* navbar start here */
+       .checkbtn{
+           display:block ;
+       }
+       ul{
+       
+           position: fixed;
+           width: 100%;
+           height: 60vh;
+           background: rgb(2, 2, 71);
+           top: 80px;
+           left: 0;
+           text-align: center;
+           left: -100%;
+           transition: 0.4s;
+       }
+       nav ul li{
+           display: block;
+           margin:  5px 0;
+           line-height: 60px;
+       }
+       nav ul li a {
+           font-size: 20px;
+           color:white;
+       }
+       a:hover,a.active{
+           background: none;
+           color:rgb(41, 125, 236)
+       }
+       #check:checked ~ul{
+           left: 0;
+       }
+       ul {
+        margin-left: 0px;
+    }
+    ul {
+        z-index: 1;
+    }
+    i.fas.fa-bars {
+        background: white;
+        color: #640505;
+    }
+      /* navbar end here */
+
+    /* practice section start */
+    #practice-section{
+        width: 100%;
+        height: auto;
+   } 
+    /* practice section end */
+
+    /* intigrated experience section start */
+    #intigrated-experience{
+        width: 100%;
+        height: auto;
+        background-color: rgb(243, 236, 236);
+     }
+     /* intigrated experience section end*/
+
+     /* homesection start here */
+     .centered {
+        position: absolute;
+        transform: translate(-50%, -64%);
+        background-color: #030b26;
+        width: 55vw;
+         height: auto;
+    }
+    h1.consultaion-text {
+        padding: 0;
+        font-size: 44px;
+    }
+  
+         /* homesection end here */
+
+              /* consultant section start here */
+              p.consultaion-text {
+                font-size: 23px;
+            }
+             /* consultant section start here */
+             a#consultan-button {
+                padding: 1px 9px;
+            }
+              /* consultant section end here */
+        
+        /* about section start here */
+        #about-section{
+            margin-top:6rem ;
+        }
+        .team-mem-1 {
+            margin-bottom: 1rem;
+        }
+          
+        .team-mem-2 {
+            margin-bottom: 1rem;
+        }
+        .team-mem-3 {
+            margin-bottom: 1rem;
+        }
+          
+          /* about section start here */
+        
+}   
+   /* device screen  858 px  responsive end */
+
+
+
+/* device screen  768px navbar responsive start */
+   @media (max-width:768px ){
+        /* navbar start here */
+        .checkbtn{
+            display:block ;
+        }
+             /* navbar end here */
+
+            /*  Home page start here */
+            .centered {
+                position: absolute;
+                transform: translate(-50%, -70%);
+                background-color: #030b26;
+                width: 55vw;
+                height: auto;
+            }
+          h1.consultaion-text {
+            font-size: 3rem;
+            color: #fff;
+        }
+           /*  Home page end here */
+
+    ul {
+        margin-left: 0px;
+        margin-left: 0;
+        height: 50vh;
+        top: 80px;
+        
+    }
+            /* navbar start here*/
+            ul {
+                z-index: 1;
+            }
+        nav ul li a{
+            color:white;
+        }
+        i.fas.fa-bars {
+            background: white;
+            color: #640505;
+            }
+            /* navbar ene here*/
+    
+            /* Our consultant page start */
+            p.consultaion-text {
+                margin-bottom: 0;
+                font-size: 20px;
+            }
+                /* Our consultant page end */
+   }
+     /* device screen  768px navbar responsive end */
+
+     
+       /* device screen  650px navbar responsive start */
+     @media (max-width:650px){
+             /* homepage and consultant page start */
+             h2.consultaion-text {
+                font-size: 19px;
+            }
+            
+            .centered {
+               
+                position: absolute;
+                transform: translate(-50%, -100%);
+                background-color: #030b26;
+                width: 55vw;
+                height: auto;
+            }
+            h1.consultaion-text {
+                font-size: 30px;
+                padding: 0;
+                margin: 0;
+            }
+            h6.consultaion-text-h6 {
+                padding: 4px 0px;
+            }
+             /* homepage and consultant end  */
+  }
+   /* device screen  650px navbar responsive end */
+
+
+     /* device screen  576px navbar responsive start */
+   @media (max-width:576px){
+        /* navbar start here*/
+            ul {
+                margin-left: 0;
+                height: 50vh;
+                width: 100%;
+            }
+            ul {
+                z-index: 1;
+            }
+            nav ul li a{
+                color:white;
+            }
+            i.fas.fa-bars {
+                background: white;
+                color: #640505;
+            }
+            /* navbar start here*/
+ 
+        /* Intigrated experience section start*/
+        img.card-img.about-img {
+            height: 60vh;
+        }
+         /* Intigrated experience section end*/
+
+                /*  Home page start here */
+                  
+            .centered {
+               
+                position: absolute;
+                transform: translate(-50%, -120%);
+                background-color: #030b26;
+                width: 55vw;
+                height: auto;
+            }
+            /*  Home page end here */
+            /* Our expert consultant page  */
+            div#expert-page {
+                position: absolute;
+                padding: 10px 0;
+                transform: translate(-50%, -50%);
+            }
+              /* Our expert consultant page end */
+
+            /* cnonsultan section start */
+          
+               /* cnonsultan section end */
+    }
+   /* device screen  576px  responsive end */
+
+
+   /* 450px media screen start here */
+   @media (max-width:450px){
+        /*  consultant section */
+        
+        a#consultan-button {
+            padding: 0;
+            font-size: 12px;
+        }
+        
+        p.consultaion-text {
+            font-size: 17px;
+        }
+        
+        div#centerd {
+            height: 28vh;
+        }
+        h2.consultaion-text {
+            font-size: 16px;
+        }
+        /*consultant section */
+
+        /* Homesection start here */
+        img#about-home-img {
+            width: 100%;
+            height: 40vh;
+            position: relative;
+            display: block;
+        }
+        .centered {
+            position: absolute;
+            transform: translate(-50%, -146%);
+        }
+         /* Homesection end here */
+          
+         /* our expert page start here */
+         div#expert-page {
+            position: absolute;
+            padding: 10px 0;
+            transform: translate(-50%, -50%);
+        }
+        img.consultant-img {
+            width: 100%;
+            height: 35vh;
+            position: relative;
+            display: block;
+        }
+        /* our expert page end here */
+
+        /* Intigrated experience start here */
+        img.card-img.about-img {
+            width: 100%;
+            height: auto;
+        }
+                /* Intigrated experience end here */
+   }
+@media (max-width:360px){
+    /* Home section start  */
+         /* Homesection start here */
+         img#about-home-img {
+            width: 100%;
+            height: 40vh;
+            position: relative;
+            display: block;
+        }
+        .centered {
+            position: absolute;
+            transform: translate(-50%, -100%);
+        }
+         /* Homesection end here */
+     /* Home section ene  */
+}
+ 
